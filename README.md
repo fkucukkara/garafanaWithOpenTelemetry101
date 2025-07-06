@@ -99,6 +99,20 @@ OTEL_EXPORTER_OTLP_HEADERS=Authorization=Basic [Your-Auth-Token]
    ```
 4. Access the API at `http://localhost:5058/weatherforecast`
 
+## 🏃‍♂️ How to Run
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/fkucukkara/garafanaWithOpenTelemetry101.git
+   cd GarafanaWithOpenTelemetry101
+   ```
+2. **Run the application:**
+   ```bash
+   dotnet run --project GarafanaWithOpenTelemetry101/GarafanaWithOpenTelemetry101.csproj
+   ```
+3. **Access the API:**
+   - Open your browser and navigate to: [http://localhost:5058/weatherforecast](http://localhost:5058/weatherforecast)
+
 ## 📊 Viewing Telemetry Data in Grafana
 
 1. Log into your Grafana Cloud account
