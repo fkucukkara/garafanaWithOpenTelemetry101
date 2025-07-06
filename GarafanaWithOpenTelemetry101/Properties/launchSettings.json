@@ -1,0 +1,29 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "applicationUrl": "http://localhost:5058",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "OTEL_EXPORTER_OTLP_PROTOCOL": "http/protobuf",
+        "OTEL_EXPORTER_OTLP_ENDPOINT": "https://otlp-gateway-prod-eu-west-2.grafana.net/otlp",
+        "OTEL_EXPORTER_OTLP_HEADERS": "Authorization=Basic MTMwODY2NTpnbGNfZXlKdklqb2lNVFEzTlRrNU9DSXNJbTRpT2lKemRHRmpheTB4TXpBNE5qWTFMVzkwYkhBdGQzSnBkR1V0WjNKaFptRnVZVEV3TVNJc0ltc2lPaUkxT0RST1ZFZ3pNVmwzZUdKV1UzazVhMjA1TVc0eE9GVWlMQ0p0SWpwN0luSWlPaUp3Y205a0xXVjFMWGRsYzNRdE1pSjlmUT09"
+      }
+    },
+    "https": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "applicationUrl": "https://localhost:7238;http://localhost:5058",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "OTEL_EXPORTER_OTLP_PROTOCOL": "http/protobuf",
+        "OTEL_EXPORTER_OTLP_ENDPOINT": "https://otlp-gateway-prod-eu-west-2.grafana.net/otlp",
+        "OTEL_EXPORTER_OTLP_HEADERS": "Authorization=Basic MTMwODY2NTpnbGNfZXlKdklqb2lNVFEzTlRrNU9DSXNJbTRpT2lKemRHRmpheTB4TXpBNE5qWTFMVzkwYkhBdGQzSnBkR1V0WjNKaFptRnVZVEV3TVNJc0ltc2lPaUkxT0RST1ZFZ3pNVmwzZUdKV1UzazVhMjA1TVc0eE9GVWlMQ0p0SWpwN0luSWlPaUp3Y205a0xXVjFMWGRsYzNRdE1pSjlmUT09"
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+@GarafanaWithOpenTelemetry101_HostAddress = https://localhost:7238
+
+GET {{GarafanaWithOpenTelemetry101_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
